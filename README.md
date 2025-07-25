@@ -6,3 +6,7 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+
+Theme Implementation Note: This React application uses context API for theme management, allowing users to toggle between light and dark modes. We've enhanced it with color variants (blue, green, purple, red) through a dropdown menu and added an "Out of Stock" feature that conditionally renders product availability status. The implementation leverages Tailwind CSS for styling and React's conditional rendering for dynamic UI elements.
